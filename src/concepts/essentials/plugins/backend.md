@@ -10,18 +10,8 @@ Backend development allows you to:
 
 For advanced documentation on this topic - click [here](/reference/sdks/backend_sdk.md).
 
-### `APISDK`
+`sdk.api` - Used to communicate between the frontend and backend.
 
-Used to send events to the frontend and register backend functions.
+`sdk.events` - Used to register an asynchronous callback to an intercepted request or response.
 
-`sdk.api.send`
-
-`sdk.api.register`
-
-### `EventsSDK`
-
-Registers a callback to an intercepted request or response. Callbacks are asynchronous and cannot modify the request or response objects.
-
-`sdk.events.onInterceptRequest`
-
-`sdk.events.onInterceptResponse`
+`sdk.meta` - Used to store plugin related data.
