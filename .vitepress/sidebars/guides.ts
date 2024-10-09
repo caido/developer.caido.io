@@ -63,4 +63,13 @@ export const guidesSidebar: DefaultTheme.SidebarItem[] = [
       },
     ],
   },
+  {
+    text: "Backend",
+    items: [
+      {
+        text: "Spawning a subprocess",
+        link: "/guides/backend/subprocess",
+      },
+    ],
+  },
 ];
